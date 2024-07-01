@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>魔法脆脆</title>
     <style>
-
         body {
             font-family: Arial, sans-serif;
             background-color: #121212;
             color: #e0e0e0;
             margin: 0;
             padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            width: 100%;
         }
         .header {
             display: flex;
@@ -37,7 +41,7 @@
             border-radius: 8px;
             padding: 15px;
             margin-bottom: 15px;
-			font-size: 3.7vw;
+            font-size: 3.7vw;
         }
         .user-info {
             display: flex;
@@ -69,133 +73,133 @@
             justify-content: space-between;
             color: #888;
         }
-    
+		@media (min-width: 768px) {
+            .content {
+                max-width: 65%;
+            }
+			.logo {
+            font-size: 3vw
+			}
+			.post {
+            font-size: 1.7vw;
+			}
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">魔法脆脆</div>
-        <!--<button class="login-btn">登入</button>-->
-    </div>
-
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="mirror-user">AROD</span>
+    <div class="content">
+        <div class="header">
+            <div class="logo">魔法脆脆</div>
+            <!--<button class="login-btn">登入</button>-->
         </div>
-        <div class="post-tags">#震驚</div>
-        <div class="post-content">學校裡居然有毒販的兒子…那人就是…</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="username">FWB</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="mirror-user">AROD</span>
+            </div>
+            <div class="post-tags">#震驚</div>
+            <div class="post-content">學校裡居然有毒販的兒子…那人就是…</div>
         </div>
-        <div class="post-tags">#上課</div>
-        <div class="post-content">下次魔獸學翹課的我就當掉。</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="mirror-user">AROD</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="username">FWB</span>
+            </div>
+            <div class="post-tags">#上課</div>
+            <div class="post-content">下次魔獸學翹課的我就當掉。</div>
         </div>
-        <div class="post-tags">#可恥</div>
-        <div class="post-content">雷諾教授疑似收取好處，給學生高分。</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="username">SFOP</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="mirror-user">AROD</span>
+            </div>
+            <div class="post-tags">#可恥</div>
+            <div class="post-content">雷諾教授疑似收取好處，給學生高分。</div>
         </div>
-        <div class="post-tags">#警告</div>
-        <div class="post-content">我是雷諾教授,請勿造謠。</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="mirror-user">AROD</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="username">SFOP</span>
+            </div>
+            <div class="post-tags">#警告</div>
+            <div class="post-content">我是雷諾教授,請勿造謠。</div>
         </div>
-        <div class="post-tags">#憤怒</div>
-        <div class="post-content">濫用職權的學生會長，我們罷免他。</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="username">FEXBSE</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="mirror-user">AROD</span>
+            </div>
+            <div class="post-tags">#憤怒</div>
+            <div class="post-content">濫用職權的學生會長，我們罷免他。</div>
         </div>
-        <div class="post-tags">#胡說</div>
-        <div class="post-content">我是愛德華，我警告你不要亂說話。</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="mirror-user">AROD</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="username">FEXBSE</span>
+            </div>
+            <div class="post-tags">#胡說</div>
+            <div class="post-content">我是愛德華，我警告你不要亂說話。</div>
         </div>
-        <div class="post-tags">#噁心</div>
-        <div class="post-content">法安偷窺，凱絲老師護航，莫非兩人有不可告人的關係。</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="mirror-user">AROD</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="mirror-user">AROD</span>
+            </div>
+            <div class="post-tags">#噁心</div>
+            <div class="post-content">法安偷窺，凱絲老師護航，莫非兩人有不可告人的關係。</div>
         </div>
-        <div class="post-tags">#噁心</div>
-        <div class="post-content">約翰這學渣考試居然可以滿分，作弊吧！</div>
-       
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="mirror-user">AROD</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="mirror-user">AROD</span>
+            </div>
+            <div class="post-tags">#噁心</div>
+            <div class="post-content">約翰這學渣考試居然可以滿分，作弊吧！</div>
         </div>
-        <div class="post-tags">#危險</div>
-        <div class="post-content">我才不要跟那個人一組，哪天被他連累，還偷東西。</div>
-       
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="username">MPVJT</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="mirror-user">AROD</span>
+            </div>
+            <div class="post-tags">#危險</div>
+            <div class="post-content">我才不要跟那個人一組，哪天被他連累，還偷東西。</div>
         </div>
-        <div class="post-tags">#可怕</div>
-        <div class="post-content">樓上說的那個是法安嗎，看不出來他會這樣。</div>
-        
-    </div>
 
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="username">KPIO</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="username">MPVJT</span>
+            </div>
+            <div class="post-tags">#可怕</div>
+            <div class="post-content">樓上說的那個是法安嗎，看不出來他會這樣。</div>
         </div>
-        <div class="post-tags">#難過</div>
-        <div class="post-content">法安不是這樣的人，你們不要污衊他！</div>
 
-    </div>
-
-    <div class="post">
-        <div class="user-info">
-            <div class="avatar"></div>
-            <span class="mirror-user">AROD</span>
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="username">KPIO</span>
+            </div>
+            <div class="post-tags">#難過</div>
+            <div class="post-content">法安不是這樣的人，你們不要污衊他！</div>
         </div>
-        <div class="post-tags">#好笑</div>
-        <div class="post-content">莫非你就是法安本人，露餡了吧。</div>
 
+        <div class="post">
+            <div class="user-info">
+                <div class="avatar"></div>
+                <span class="mirror-user">AROD</span>
+            </div>
+            <div class="post-tags">#好笑</div>
+            <div class="post-content">莫非你就是法安本人，露餡了吧。</div>
+        </div>
     </div>
 </body>
-</html
+</html>
